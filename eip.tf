@@ -3,10 +3,10 @@
 }*/
 
 resource "aws_s3_bucket" "example" {
-  bucket = "mk_bucket_3197"
+  bucket = "my_bucket_3197"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My_bucket_000"
     Environment = "Dev"
   }
 }
